@@ -1,0 +1,5 @@
+CREATE OR REPLACE PACKAGE demo_pkg AS
+  FUNCTION get_greeting(p_name IN VARCHAR2) RETURN VARCHAR2;
+  FUNCTION get_farewell(p_name IN VARCHAR2) RETURN VARCHAR2;
+END demo_pkg;
+/
